@@ -1,0 +1,181 @@
+/**********************************************************/
+/*                                                        */
+/*  Bootcamp Ania Kubow                                   */
+/*  datestamp: 30 October 2023 | 7 December 2023          */
+/*  timestamp: 09:57 - 12:27   | 08:20 - 12:00            */
+/*                                                        */
+/**********************************************************/
+.BootcampAnia {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem auto;
+  width: 90vw;
+  background-color: antiquewhite;
+  color: black;
+}
+
+.BootcampAnia nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(12, 5, 35, 0.3137254902);
+}
+
+.BootcampAnia .Logo {
+  border-radius: 2rem;
+  width: 48px;
+  height: 48px;
+  overflow: hidden;
+  transition: 2s;
+}
+
+.BootcampAnia .Logo:focus, .BootcampAnia .Logo:hover {
+  border-radius: 0;
+}
+
+.BootcampAnia .Logo img {
+  position: relative;
+  top: -0.5rem;
+}
+
+.BootcampAnia nav ul {
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  list-style-type: none;
+}
+
+.BootcampAnia nav a {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.BootcampAnia nav a:focus, .BootcampAnia nav a:hover {
+  background-color: rgba(12, 5, 35, 0.0196078431);
+  border-radius: 1rem;
+}
+
+.BootcampAnia .Hero {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin: 1rem 0;
+  border: 7px solid black;
+  padding: 4rem 1rem;
+  width: 100%;
+  height: -moz-max-content;
+  height: max-content;
+  background-color: hsl(18, 82%, 15%);
+  box-sizing: border-box;
+}
+
+.BootcampAnia .Hero div {
+  max-width: 20rem;
+  color: antiquewhite;
+}
+
+#name {
+  color: lightgreen;
+}
+
+.BootcampAnia button {
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.8rem 2rem;
+  background-color: darkred;
+  background-image: linear-gradient(to top right, rgba(0, 0, 0, 0.1254901961), rgba(0, 0, 0, 0.3137254902) 70%);
+  color: antiquewhite;
+  text-shadow: 1px 1px 1px black;
+  font-size: 1.2rem;
+  box-shadow: inset -2px 2px 3px rgba(247, 255, 247, 0.4392156863), inset 4px -4px 5px rgba(12, 5, 35, 0.3137254902), -2px 2px 3px black;
+  cursor: pointer;
+}
+
+.BootcampAnia button:focus, .BootcampAnia button:hover {
+  background-color: indianred;
+}
+
+.BootcampAnia button:active {
+  background-color: indigo;
+}
+
+.avatar {
+  border-radius: 2rem;
+  width: 90vw;
+  max-width: 18rem;
+}
+
+.BootcampAnia .AboutMe {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 1rem 0;
+  padding: 2rem 0.5rem;
+  background-color: #fefefe;
+}
+
+.BootcampAnia .AboutMe .Image {
+  border-radius: 10rem;
+  width: 15rem;
+  height: 15rem;
+  overflow: hidden;
+}
+
+.BootcampAnia .AboutMe img {
+  position: relative;
+  top: -7rem;
+  left: -1rem;
+  width: 120%;
+}
+
+.SocialMedia {
+  background-color: #fefefe;
+  text-align: center;
+}
+
+.BootcampAnia section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  background-image: repeating-linear-gradient(45deg, cyan 10%, lightyellow 55%, darkred);
+}
+
+.BootcampAnia section div {
+  margin: 0.5rem;
+  width: 30px;
+  height: 30px;
+  background-color: blue;
+}
+
+.BoxShadow {
+  box-shadow: 5px -5px 8px darkblue;
+}
+
+.BootcampAnia .Boxes {
+  height: -moz-max-content;
+  height: max-content;
+}
+
+footer p {
+  padding: 1rem 0;
+  text-align: center;
+  font-family: "Quicksand", Arial, Helvetica, sans-serif;
+}
+
+.BootcampAnia a {
+  color: indigo;
+  font-weight: 700;
+  border: none;
+}
+
+.BootcampAnia a:focus, .BootcampAnia a:hover {
+  text-decoration: underline;
+  color: indianred;
+}/*# sourceMappingURL=styles.css.map */
