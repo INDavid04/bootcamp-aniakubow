@@ -7,12 +7,14 @@
 /**********************************************************/
 
 .BootcampAnia { display: flex; flex-direction: column; margin: 1rem auto; width: 90vw; background-color: antiquewhite; color: black; }
-    .BootcampAnia nav { display: flex; justify-content: space-between; padding: 1rem; box-shadow: 0 2px 8px #0c052350; }
+    .BootcampAnia nav { display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; padding: 1rem; box-shadow: 0 2px 8px #0c052350; }
         .BootcampAnia .Logo { border-radius: 2rem; width: 48px; height: 48px; overflow: hidden; transition: 2s; }
             .BootcampAnia .Logo:focus, .BootcampAnia .Logo:hover { border-radius: 0; }
             .BootcampAnia .Logo img { position: relative; top: -0.5rem; }
         .BootcampAnia nav ul { display: flex; gap: 1rem; margin: 0; list-style-type: none; }
-        .BootcampAnia nav a { display: flex; align-items: center; height: 100%; }
+        .BootcampAnia nav a { display: flex; align-items: center; height: 100%;
+            @media (min-width: 400px) { padding: 0 1rem; }
+        }
             .BootcampAnia nav a:focus, .BootcampAnia nav a:hover { background-color: #0c052305; border-radius: 1rem; }
     .BootcampAnia .Hero { display: flex; justify-content: space-evenly; align-items: center; gap: 2rem; flex-wrap: wrap; margin: 1rem 0; border: 7px solid black; padding: 4rem 1rem; width: 100%; height: max-content; background-color: hsl(18, 82%, 15%); box-sizing: border-box; }
         .BootcampAnia .Hero div { max-width: 20rem; color: antiquewhite; }
@@ -20,7 +22,7 @@
             .BootcampAnia button { border: none; border-radius: 0.5rem; padding: 0.8rem 2rem; background-color: darkred; background-image: linear-gradient(to top right, #00000020, #00000050 70%); color: antiquewhite; text-shadow: 1px 1px 1px black; font-size: 1.2rem; box-shadow: inset -2px 2px 3px #f7fff770, inset 4px -4px 5px #0c052350, -2px 2px 3px black; cursor: pointer; }
                 .BootcampAnia button:focus, .BootcampAnia button:hover { background-color: indianred; }
                 .BootcampAnia button:active { background-color: indigo; }
-            .avatar { border-radius: 2rem; width: 90vw; max-width: 18rem; }
+            .avatar { border-radius: 2rem; width: 80vw; max-width: 18rem; }
         .BootcampAnia .AboutMe { display: flex; flex-wrap: wrap; justify-content: space-evenly; align-items: center; margin: 1rem 0; padding: 2rem 0.5rem; background-color: #fefefe; }
             .BootcampAnia .AboutMe .Image { border-radius: 10rem; width: 15rem; height: 15rem; overflow: hidden; }
                 .BootcampAnia .AboutMe img { position: relative; top: -7rem; left: -1rem; width: 120%; }
